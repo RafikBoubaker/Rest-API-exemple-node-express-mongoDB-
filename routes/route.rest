@@ -1,0 +1,34 @@
+GET http://localhost:3000/subscribers
+###
+
+
+GET http://localhost:3000/subscribers/6093cdc030b5aa537485024a
+
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+  "name" : "king kong",
+  "subscribedToChannel" : "  reactJS & react Native "
+
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/6093cdc030baa0137485024a
+
+
+###
+
+PATCH http://localhost:3000/subscribers/6093c9d6459de137c8d165f5
+Content-Type: application/json
+
+
+{
+  "name" : "new hero",
+  "subscribedToChannel" : "express and mangodb"
+  
+}
